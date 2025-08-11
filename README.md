@@ -756,3 +756,65 @@ Limitaciones:
 - Despliegue en entornos de prueba: Los artefactos se despliegan automáticamente en entornos de prueba o staging, donde se realizan pruebas adicionales para validar el comportamiento en un entorno similar al de producción.
 - Despliegue en producción: Si las pruebas en staging son satisfactorias, el sistema realiza el despliegue en producción. Dependiendo de la configuración, este paso puede requerir aprobación manual o ser completamente automatizado.
 - Monitoreo y retroalimentación: Después del despliegue, se monitorea el rendimiento y se recopila retroalimentación para detectar posibles problemas y mejorar el proceso en futuras iteraciones.
+
+### Documentar el proceso seguido para desplegar la parte 2 del laboratorio
+
+#### Paso 1: Subir tu proyecto a GitHub
+
+Inicializa el repositorio Git en el proyecto local:
+
+Abrir la terminal en la carpeta raíz de tu proyecto y ejecutat:
+
+    git init
+
+Agregar todos los archivos al repositorio:
+
+    git add .
+
+Realizar el primer commit:
+
+    git commit -m "Primer commit"
+
+Crear un repositorio en GitHub:
+
+- Ir a github.com y crear un nuevo repositorio.
+- No marcar la opción de inicializar con README, ya que ya se hizo localmente.
+
+Conectar el repositorio local con el remoto en GitHub:
+
+Reemplazar TU_USUARIO y NOMBRE_REPOSITORIO con los datos:
+
+    git remote add origin https://github.com/TU_USUARIO/NOMBRE_REPOSITORIO.git
+
+Subir los cambios a GitHub:
+
+    git branch -M main
+    git push -u origin main
+
+#### Paso 2: Desplegar en Netlify
+
+- Iniciar sesión en Netlify:
+  - Ir a netlify.com y crear una cuenta o inicia sesión.
+- Importar el proyecto desde GitHub:
+  - En el panel de Netlify, haz clic en "Add new site" y seleccionar "Import an existing project".
+  - Conectar la cuenta de GitHub si aún no se ha hecho.
+  - Seleccionar el repositorio que acaba de subir.
+- Configura el despliegue:
+  - Branch to deploy: main
+  - Build command: Dejar este campo vacío si el proyecto es estático.
+  - Publish directory: Dejar este campo vacío si el proyecto es estático.
+- Despliega el sitio:
+  - Hacer clic en "Deploy site".
+- Acceder al sitio:
+  - Una vez desplegado, Netlify te proporcionará una URL temporal.
+
+#### Actualizaciones futuras
+
+- Realizar cambios en tu proyecto local.
+- Hacer commit y push a GitHub:
+
+      git add .
+      git commit -m "Descripción de los cambios"
+      git push
+
+- Netlify detecta automáticamente los cambios y actualizará el sitio.
