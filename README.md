@@ -1,5 +1,10 @@
 # **Investigación: Características del desarrollo web moderno**
 
+Nombre: Josué Torres Narvaez
+Carné: 2018084162
+Curso: IC-8057 – Introducción al Desarrollo de Páginas Web
+Fecha: 10/08/2025
+
 ## **Frameworks de desarrollo web**
 
 ---
