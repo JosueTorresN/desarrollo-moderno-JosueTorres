@@ -796,17 +796,15 @@ Subir los cambios a GitHub:
 - Iniciar sesión en Netlify:
   - Ir a netlify.com y crear una cuenta o inicia sesión.
 - Importar el proyecto desde GitHub:
-  - En el panel de Netlify, haz clic en "Add new site" y seleccionar "Import an existing project".
+  - En el panel de Netlify, hacer clic en "Add new site" y seleccionar "Import an existing project".
   - Conectar la cuenta de GitHub si aún no se ha hecho.
-  - Seleccionar el repositorio que acaba de subir.
-- Configura el despliegue:
+  - Seleccionar el repositorio que se acaba de subir.
+- Configurar el despliegue:
   - Branch to deploy: main
-  - Build command: Dejar este campo vacío si el proyecto es estático.
-  - Publish directory: Dejar este campo vacío si el proyecto es estático.
-- Despliega el sitio:
+- Desplegar el sitio:
   - Hacer clic en "Deploy site".
 - Acceder al sitio:
-  - Una vez desplegado, Netlify te proporcionará una URL temporal.
+  - Una vez desplegado, Netlify te proporciona una URL temporal.
 
 #### Actualizaciones futuras
 
