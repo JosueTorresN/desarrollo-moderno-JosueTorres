@@ -1,8 +1,11 @@
 # **Investigación: Características del desarrollo web moderno**
 
 Nombre: Josué Torres Narvaez
+
 Carné: 2018084162
+
 Curso: IC-8057 – Introducción al Desarrollo de Páginas Web
+
 Fecha: 10/08/2025
 
 ## **Frameworks de desarrollo web**
@@ -186,6 +189,7 @@ El control de versiones es un sistema que registra los cambios realizados en arc
   - Puede generar conflictos si las ramas se mantienen por mucho tiempo.
 
 [Fuente: Trunk-Based Development vs Git Flow](https://openwebinars.net/blog/trunk-based-development-vs-git-flow-cual-elegir/)
+
 [Fuente: Feature Branch Workflow - Atlassian](https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow)
 
 ### Ejemplo de cómo usar Git en un proyecto (inicialización, commits, ramas)
@@ -329,6 +333,7 @@ Ideal para:
 - La app usa ese token para acceder a recursos protegidos.
 
 [Fuente: IAM, OAuth, OIDC, SAML, SSO, JWT](https://blog.logto.io/es/iam-oauth-oidc-saml-sso-jwt)
+
 [Fuente: JWT vs OAuth](https://geekflare.com/es/jwt-vs-oauth/)
 
 ### Diagrama de flujo explicativo del proceso de autenticación con JWT
@@ -365,6 +370,7 @@ Ideal para:
         └─ Autoriza o rechaza la solicitud
 
 [Fuente: IAM, OAuth, OIDC, SAML, SSO, JWT](https://blog.logto.io/es/iam-oauth-oidc-saml-sso-jwt)
+
 [Fuente: JWT vs OAuth](https://geekflare.com/es/jwt-vs-oauth/)
 
 ### Buenas prácticas en seguridad web
@@ -414,6 +420,7 @@ Actualización de software y dependencias:
 - Establece políticas de seguridad claras y revisables.
 
 [Fuente: Desarrollo de páginas web seguras - Buenas prácticas y estrategias](https://www.cisinformatica.cat/es/desarrollo-de-paginas-web-seguras-buenas-practicas-y-estrategias/)
+
 [Video: Buenas prácticas en seguridad web](https://www.bing.com/videos/riverview/relatedvideo?q=Buenas+pr%c3%a1cticas+en+seguridad+web.&&mid=A2B19BA286FB9A0C8CEDA2B19BA286FB9A0C8CED&FORM=VAMGZC)
 
 ### Aplicaciones reales en plataformas modernas
@@ -507,6 +514,7 @@ Limitaciones:
 - No incluye vista previa integrada.
 
 [Video: Definición de Headless CMS vs CMS tradicional](https://www.bing.com/videos/riverview/relatedvideo?q=Definici%c3%b3n+de+Headless+CMS+vs+CMS+tradicional&&mid=0D0BD8FFC24264A91B460D0BD8FFC24264A91B46&FORM=VAMGZC)
+
 [Fuente: Comparación de Headless CMS vs CMS tradicional (webhosting.de)](https://webhosting.de/es/headless-cms-vs-tradicional-cms-comparacion-ventajas-y-desventajas/)
 
 ### Arquitectura basada en APIs
@@ -533,7 +541,9 @@ Se utilizan protocolos como:
 
 
 [Fuente: Microservicios y APIs - MuleSoft](https://www.mulesoft.com/es/api/microservices/microservices-and-apis?)
+
 [Fuente: Arquitectura de microservicios - IT Patagonia](https://itpatagonia.com/es_es/arquitectura-de-microservicios-claves)
+
 [Fuente: Building Microservices Using an API Gateway (F5)](https://www.f5.com/es_es/company/blog/nginx/building-microservices-using-an-api-gateway)
 
 
@@ -566,6 +576,7 @@ Casos de uso comunes:
 - Sistemas multidominio altamente especializados, ejemplo: Mercado Libre, donde cada funcionalidad (chat, búsqueda, recomendaciones) es manejada por un microservicio distinto, permitiendo a cada equipo trabajar y desplegar de forma independiente.
 
 [Fuente: Arquitectura de Aplicaciones: Monolítica vs. Basada en Microservicios](intuitivo.ar/arquitectura-de-aplicaciones-monolitica-vs-basada-en-microservicios/)
+
 [Fuente: Microservicios y API clave para la escalabilidad empresarial (Impacto TIC)](https://impactotic.co/micrositios-tic/sectorti/hardware-software/microservicios-y-api-clave-para-la-escalabilidad-empresarial/?utm_source=chatgpt.com)
 
 ### Ejemplo de cómo se conecta el frontend a un CMS headless
@@ -647,6 +658,7 @@ Una pasarela de pago (o payment gateway) es una tecnología esencial en el comer
 - Métodos de pago múltiples: Idealmente, soportar tarjetas, billeteras digitales (Apple Pay, Google Pay, etc.) y otras opciones relevantes según el mercado.
 
 [Fuente: Ventajas y limitaciones de integrar pagos en línea.](https://www.eliftech.com/insights/best-practices-to-integrate-payment-gateway-into-your-business/)
+
 [Fuente: Payment Gateway Integration Checklist for Developers (apnnews.com)](https://www.apnnews.com/payment-gateway-integration-checklist-for-developers/)
 
 #### Ventajas y limitaciones de integrar pagos en línea
@@ -680,8 +692,11 @@ Limitaciones:
 | Soporte usuario      | Mayor infraestructura global           | Limitado según experiencia de algunos usuarios      |
 
 [Fuente: Stripe Gateway Overview](https://www.paidmembershipspro.com/gateway/stripe/gateway-overview/)
+
 [Fuente: Types of payment gateways: A quick guide for businesses](https://stripe.com/en-cz/resources/more/types-of-payment-gateways)
+
 [Fuente: https://tilopay.com/metodos-de-pago](https://tilopay.com/metodos-de-pago)
+
 [Fuente: https://tilopay.com/sobre-tilopay](https://tilopay.com/sobre-tilopay)
 
 ## **Automatización del despliegue y hosting moderno**
@@ -706,6 +721,7 @@ Limitaciones:
 - Reducción de riesgos y costos: Se minimizan fallos críticos, tiempos de inactividad y esfuerzo manual, mejorando la inversión en desarrollo.
 
 [Fuente: Continuous Integration and Continuous Delivery/Deployment (arxiv.org)](https://arxiv.org/abs/1703.07019)
+
 [Fuente: Benefits of CI/CD (Zeet)](https://zeet.co/blog/benefits-of-cicd)
 [Fuente: Benefits of CI/CD in Software Development](https://kodekaizen.com/benefits-of-ci-cd-in-software-development)
 
